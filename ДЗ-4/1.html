@@ -26,9 +26,9 @@
       ProductES5.prototype.make25Discount = function () {
         this.price *= 0.75;
       };
-      const ProductES5 = new ProductES5("Карандаш", 100);
-      ProductES5.make25Discount();
-      console.log(ProductES5);
+      const productES5 = new ProductES5("Карандаш", 100);
+      productES5.make25Discount();
+      console.log(productES5);
 
       //Делала по вашему видео, все в точности, но в итоге в консоли сообщение Uncaught SyntaxError: Identifier 'ProductES5' has already been declared, не понимаю
 
@@ -42,9 +42,9 @@
         }
       }
 
-      const ProductES6 = new ProductES6("Карандаш", 100);
-      ProductES5.make25Discount();
-      console.log(ProductES6);
+      const productES6 = new ProductES6("Карандаш", 100);
+      productES6.make25Discount();
+      console.log(productES6);
     </script>
   </body>
 </html>
